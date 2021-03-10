@@ -4,15 +4,44 @@
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 5%;
-  width: 100%;
-  background-color: #A1E7E9;
-  color: black;
-  text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 5%;
+	width: 100%;
+	background-color: #12ACB2;
+	color: black;
+	text-align: center;
 }
+
 .navbar-color{
 	background-color: #12ACB2;
+}
+
+.mycontent{
+	width: 900px;
+	height: 800px;
+	background-color: #FFE587;
+	margin: auto;
+	padding: 10px;
+	font-family: cubano, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.centreimages{
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	width: 50%;
+}
+
+h3{
+	text-align: center;
+}
+
+.footertext{
+	font-family: cubano, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
