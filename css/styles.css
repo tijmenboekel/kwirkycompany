@@ -1,2 +1,18 @@
-/* CSS Document */
+.img-navbar{
+	height: 50px;
+	width: auto;
+}
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  background-color: #A1E7E9;
+  color: black;
+  text-align: center;
+}
+.navbar-color{
+	background-color: #12ACB2;
+}
