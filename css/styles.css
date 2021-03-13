@@ -1,5 +1,5 @@
 .img-navbar{
-	height: 50px;
+	height: 25px;
 	width: auto;
 }
 
@@ -19,11 +19,12 @@ footer {
 }
 
 .mycontent{
-	width: 900px;
-	height: 800px;
-	background-color: #FFE587;
+	width: 75%;
+	height: auto;
+	background: rgba(255, 229, 135, 1);
 	margin: auto;
-	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-family: cubano, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -44,4 +45,19 @@ h3{
 	font-family: cubano, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+
+.carousel-dimensions{
+	width: 75%;
+	height: auto;
+	margin: auto;
+	padding: 0px;
+}
+.carousel-image{
+	width: 75%;
+	height: auto;
+}
+
+.pcenter{
+	text-align: center;
 }
