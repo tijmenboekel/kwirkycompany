@@ -6415,7 +6415,7 @@ a.close.disabled {
   z-index: 10;
   color: #fff;
   text-align: center;
-  margin-top: -80px;
+  margin-top: -10%;
 }
 
 @-webkit-keyframes spinner-border {
