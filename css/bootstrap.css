@@ -4202,7 +4202,7 @@ background-color: #12ACB2;
 }
 
 .navbar-nav .dropdown-menu {
-  position: static;
+  position: relative;
   float: none;
 }
 
