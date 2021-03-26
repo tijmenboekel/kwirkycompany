@@ -3,6 +3,9 @@
 	width: auto;
 }
 
+.centertext{
+	text-align: center
+}
 .site-footer
 {
   background-color:#26272b;
@@ -177,7 +180,7 @@
 	font-family: cubano, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	padding: 10px;
+	padding: 20px;
 }
 
 .centreimages{
