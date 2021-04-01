@@ -25,7 +25,6 @@
 	width: auto;
 }
 
-}
 .buttonwidth{
 	width: 33.33%;
 }
@@ -232,10 +231,19 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: cubano, sans-serif;
-	font-weight: 400;
-	font-style: normal;
+	padding: 20px;}
+
+.loginbox{background: #FFFFFF;
+	text-align: center;
+	font-family: cubano, sans-serif;
+	width: 60%;
+	height: auto;
 	padding: 20px;
-}
+	text-align:center;
+	margin:auto;}
+
+.smallfont{font-size: 10px}
+
 
 .centreimages{
 	display: block;
