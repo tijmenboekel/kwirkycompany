@@ -63,9 +63,10 @@
 	  
   </div>
 </nav>
+	  <div id="bgimg">
     <div class="mycontent">
 		<div class="loginbox">
-		<h5>Find your community</h5><br>
+		<h5>Good to see you again!</h5><br>
 	
 			<div class="usrname">
 				<label for="usr">Username</label>
@@ -74,9 +75,9 @@
 	
 			<label for="pswd">Password</label>
 			<input type="password" class="formcontrol" id="pswd"><br>
-		<button type="button" class="btn btn-info">Log in</button><br><br>
+		<a class="btn btn-info" href="profile.html" role="button">Sign in</a><br><br>
 		<p class="smallfont">Forgot your password?</p>
-			<button type="button" class="btn btn-link, smallfont" data-toggle="modal" data-target="#resetpa">Reset Password</button><br><br>
+			<button type="button" class="btn btn-outline-dark, smallfont" data-toggle="modal" data-target="#resetpa">Reset Password</button><br><br>
 		<p> Don't have an account yet?</p>
 			<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#createaccount">Sign Up</button><br>
 		</div>
@@ -100,7 +101,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Send email</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#emailsent">Send email</button>
       </div>
     </div>
   </div>
@@ -132,12 +133,33 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Not now</button>
-        <button type="button" class="btn btn-primary">Done</button>
+        <a class="btn btn-info" href="profile.html" role="button">Done</a>
       </div>
     </div>
   </div>
 </div>
 	
+	  <div class="modal" id="emailsent">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+		  <h5 class="modal-title" id="es">Email has been sent</h5>
+		  <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="emailaddressp" class="col-form-label label">An email to reset your password has been sent to ****@gmail.com</label>
+          </div>
+        </form>
+      </div>
+		<div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	  </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first (Popper.js is included in Boostrap JS) then Bootstrap JS -->
    		<script src="js/jquery-3.6.0.slim.min.js"></script>
