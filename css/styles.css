@@ -27,18 +27,6 @@
 	width: auto;
 }
 
-.rounded-circle{
-	
-	height: 100%;
-	width: 100%;
-}	
-
-.rounded-circle2{
-	border-radius: 50% !important;
-	height: 110%;
-	width: 110%;
-}
-
 .buttonwidth{
 	width: 33.33%;
 }
