@@ -2,11 +2,6 @@
 	padding-left: 25px;
 	border: 5px solid #F16660;
 }
-.connectionsbutton{
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
-}
 
 .buttonfonts{
   font-family: delittle-chromatic, sans-serif;
@@ -14,7 +9,63 @@
   font-style: normal;
 }
 
+.signupbut{
+	margin-bottom: 3%; 
+	margin-top: 3%; 
+	border-radius: 0 !important; 
+	height: 40px !important;
+}
+.blockie{
+	display: block;
+}
 
+.heightusername{
+	height: 225px;
+}
+
+.rpbutton{
+	margin-bottom: 3%; margin-top: 3%; border-radius: 0; height: 40px; width: 150px !important;
+  border-radius: 0 !important; 
+	height: 40px !important;
+}
+
+.prusername{
+	height: 380px;
+}
+
+.colloro{
+	color: #000;
+}
+.rounded-circle{
+	
+	height: 100%;
+	width: 100%;
+}	
+.botmarg{
+	margin-bottom: 5%;
+}
+.rightmargin{
+	margin-right: 2%;
+}
+.paddingzero{
+	padding: 0;
+}
+
+.loginimage{
+	height: 80px;
+}
+
+.rounded-circle2{
+	border-radius: 50% !important;
+	height: 110%;
+	width: 110%;
+}
+.btn-kwirk{
+  background-color: #FFA85D;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
 
 .buttonfonts2{
   margin-left: 30%;
@@ -26,6 +77,7 @@
 	height: 40px;
 	width: auto;
 }
+
 
 .buttonwidth{
 	width: 33.33%;
@@ -235,19 +287,10 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: cubano, sans-serif;
-	padding: 20px;}
-
-.loginbox{background: #FFFFFF;
-	text-align: center;
-	font-family: cubano, sans-serif;
-	width: 60%;
-	height: auto;
+	font-weight: 400;
+	font-style: normal;
 	padding: 20px;
-	text-align:center;
-	margin:auto;}
-
-.smallfont{font-size: 10px}
-
+}
 
 .text-left{
     max-width: 200px;	
@@ -310,8 +353,8 @@ a:hover {
 
 .connectionphotos{
 	border-radius: 50%;
-	width: 100%;
-	height: auto;
+	width: 171px;
+	height: 171px;
 	
 }
 
@@ -322,4 +365,17 @@ hr {
     /* Set the hr color */
     color: #333; /* old IE */
     background-color: #333; /* Modern Browsers */
+}
+
+.contren_connect{
+  min-height: 170px;
+}
+
+.btn-primary a{
+  color: #fff;
+}
+
+.btn-primary a:hover{
+  text-decoration: none;
+  color: #FFA85D  ;
 }
