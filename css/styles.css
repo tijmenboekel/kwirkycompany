@@ -526,3 +526,7 @@ input[type=submit]:hover {
 	height:100%;
 	border:0;
 }
+.imagejustification{
+	width: 100%;
+	height: auto;
+}
