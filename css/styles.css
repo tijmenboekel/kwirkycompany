@@ -410,8 +410,80 @@ hr {
   border: 5px solid #F16660;
 }
 
- 
-
 .infoprojects{
   margin: 10px 100px;
+}
+
+#personal-profile{
+	text-align: left !important;
+
+}
+
+#advertising-content{
+	text-align: left
+}
+
+.btn-edit{
+	margin-right: 700px;
+	width: 160px;
+	height: 45px;
+	font-size: 20px;
+}
+
+.btn-buy{
+	margin-right: 20px;
+	width: 120px;
+	height: 45px;
+	font-size: 20px;
+}
+
+#img-ad{
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+#contact-ad{
+	text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #12ACB2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker blue color */
+input[type=submit]:hover {
+  background-color: #0D8388;
+}
+
+/* Add a background color and some padding around the form */
+.container-sheet {
+  border-radius: 50px;
+  background-color: #FFA85D;
+  padding: 100px;
+	max-width: 70%;
+	margin: auto;
+}
+
+.help-contact {
+	text-align: left;
 }
