@@ -312,8 +312,9 @@
 .carousel-caption{
 	font-family: cubano;
 	font-size: 25px;
+	position:fixed;
 	text-align: center;
-	align-content: center;
+	align-items: center;
 }
 .text-left{
     max-width: 200px;	
